@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-x!bc9y0o8nsrq^&fupl!ds0maj!omzafmm=(koz=ip_u*&9l8e
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://piggimart.com.ng', 'https://*.127.0.0.1']
 
 
 # Application definition
